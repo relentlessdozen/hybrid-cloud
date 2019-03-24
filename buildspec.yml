@@ -1,0 +1,21 @@
+version: 0.1
+
+phases:
+    build:
+        commands:
+            - echo Nothing to do yet!
+artifacts:
+    files:
+      - assets/*
+      - images/*
+      - .gitignore
+      - buildspec.yml 
+      - id.html
+      - index.html
+      - left-sidebar.html
+      - LICENSE.txt
+      - no-sidebar.html
+      - project.html
+      - README.md
+      - README.TXT
+      - right-sidebar.html
