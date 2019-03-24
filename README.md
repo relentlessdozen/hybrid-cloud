@@ -1,2 +1,3 @@
 # hybrid-cloud
-Hybrid Cloud Portfolio
+The Hybrid Cloud Portfolio developed by the Relentless Dozen.
+
