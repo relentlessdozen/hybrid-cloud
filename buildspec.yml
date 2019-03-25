@@ -5,11 +5,7 @@ phases:
         commands:
             - echo Nothing to do yet!
 artifacts:
-    files:
-      - assets/*
-      - images/*
-      - .gitignore
-      - buildspec.yml 
+    files: 
       - id.html
       - index.html
       - left-sidebar.html
@@ -19,3 +15,5 @@ artifacts:
       - README.md
       - README.TXT
       - right-sidebar.html
+      - assets/*
+      - images/*
