@@ -15,5 +15,5 @@ artifacts:
       - README.md
       - README.TXT
       - right-sidebar.html
-      - assets/*
-      - images/*
+      - assets\*
+      - images\*
