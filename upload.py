@@ -1,5 +1,4 @@
 import boto3
-import StringIO
 import zipfile
 import StringIO
 import mimetypes
@@ -8,7 +7,7 @@ s3 = boto3.resource('s3')
 portfolio_bucket = s3.Bucket('hybridcloud.club')
 
 build_bucket = s3.Bucket('build.hybridcloud.club')
-build_bucket.download_file('hbccbuild.zip', 'c:/Users/patri/CodeToGit/hbccbuild.zip')
+build_bucket.download_file('hbccbuild.zip', 'hbccbuild.zip')
 
 portfolio_zip = StringIO.StringIO()
 build_bucket.download_fileobj('hbccbuild.zip', portfolio_zip)
